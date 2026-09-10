@@ -1,0 +1,37 @@
+name: Metrics
+
+on:
+  schedule:
+    # каждый день в 03:00 UTC
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Render metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          # METRICS_TOKEN даёт больше данных (приватные репозитории, детальная
+          # статистика). Если секрета нет — используется встроенный токен,
+          # публичной статистики хватит.
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          filename: github-metrics.svg
+          base: header, activity, repositories
+          template: classic
+
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_colors: 0:f7b32b, 1:d97706, 2:b45309, 3:78350f
+
+          plugin_lines: yes
+          plugin_lines_sections: base
