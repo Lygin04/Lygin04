@@ -19,7 +19,6 @@
 - 🧩 Люблю чистую архитектуру, CQRS и понятные границы между слоями
 - 🐳 Много вожусь с Docker, CI/CD и локальными окружениями, которые собираются одной командой
 - 🐝 Вне кода — семейная пасека и мёд-разнотравье
-- ⚡ Принцип: простое решение лучше умного
 
 ### 🚀 Проекты
 
@@ -46,7 +45,6 @@ I'm **Konstantin**, a backend **.NET** developer. I build distributed systems an
 - 🧩 Into clean architecture, CQRS and clear boundaries between layers
 - 🐳 Spend a lot of time on Docker, CI/CD and dev environments that spin up with a single command
 - 🐝 Outside of code: a family apiary and wildflower honey
-- ⚡ Principle: a simple solution beats a clever one
 
 ### 🚀 Projects
 
@@ -98,88 +96,11 @@ I'm **Konstantin**, a backend **.NET** developer. I build distributed systems an
 
 ---
 
-## 📊 Статистика / Stats
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Lygin04/Lygin04/main/github-metrics.svg" alt="GitHub metrics" width="600" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=Lygin04&hide_border=true&theme=tokyonight&date_format=j%20M%5B%20Y%5D&ring=F7B32B&fire=F7B32B&currStreakLabel=F7B32B" alt="GitHub streak" />
-
-</div>
-
-<!--
-Запасной вариант на github-readme-stats. Публичный инстанс часто упирается
-в лимит GitHub API и отдаёт битую картинку, поэтому по умолчанию выключен.
-Раскомментировать, если поднимешь свой инстанс на Vercel и подставишь свой домен.
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Lygin04&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight&icon_color=F7B32B" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lygin04&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" alt="Top languages" />
-</div>
--->
-
----
-
-## 🍯 Медосбор / Honey harvest
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lygin04/Lygin04/output/honey-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lygin04/Lygin04/output/honey.svg" />
-  <img alt="Contribution harvest animation" src="https://raw.githubusercontent.com/Lygin04/Lygin04/output/honey.svg" />
-</picture>
-
-<sub>Собираю коммиты с сот 🐝</sub>
-
-</div>
-
----
-
-## 🐝 Не только код / Beyond code
-
-<div align="center">
-<table>
-<tr>
-<td width="33%" align="center">
-
-**🍯 Пасека**
-
-Семейная пасека.
-Мёд-разнотравье, качаем сами.
-
-</td>
-<td width="33%" align="center">
-
-**🏋️ Спорт**
-
-Силовые тренировки.
-Прогрессия нагрузки как в проде: медленно и без откатов.
-
-</td>
-<td width="33%" align="center">
-
-**📷 Фото**
-
-Снимаю продукт и природу.
-Свет решает всё.
-
-</td>
-</tr>
-</table>
-</div>
-
----
-
 ## 📫 Контакты / Contacts
 
 <div align="center">
 
 <a href="https://t.me/hellGenius"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 <a href="mailto:kosty.lygin.58@yandex.ru"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/Lygin04"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 </div>
